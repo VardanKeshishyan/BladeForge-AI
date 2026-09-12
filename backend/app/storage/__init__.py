@@ -1,0 +1,2 @@
+"""Private object storage adapters."""
+

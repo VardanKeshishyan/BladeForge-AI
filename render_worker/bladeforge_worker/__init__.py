@@ -1,0 +1,2 @@
+"""BladeForge render worker."""
+

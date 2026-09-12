@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bladeforge-render-worker"
+version = "0.1.0"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "Pillow>=11,<13",
+  "httpx>=0.28,<1",
+  "pydantic>=2.11,<3",
+  "pydantic-settings>=2.10,<3",
+  "structlog>=25.4,<26",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["bladeforge_worker"]

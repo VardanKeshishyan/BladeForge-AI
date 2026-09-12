@@ -1,0 +1,2 @@
+"""BladeForge API application."""
+

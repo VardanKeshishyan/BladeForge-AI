@@ -1,0 +1,36 @@
+services:
+  api:
+    build:
+      context: ./backend
+    env_file:
+      - ./backend/.env.local
+    environment:
+      WORKER_OUTPUT_ROOT: /work
+    ports:
+      - "8000:8000"
+    volumes:
+      - worker-output:/work
+      - customer-assets:/customer-assets
+    restart: unless-stopped
+
+  worker:
+    build:
+      context: .
+      dockerfile: render_worker/Dockerfile
+    env_file:
+      - ./render_worker/.env.local
+    environment:
+      API_URL: http://api:8000
+      OUTPUT_ROOT: /work
+      RENDER_ENGINE_PATH: /render_engine/main.py
+      RENDER_ENGINE_V2_PATH: /render_engine/v2/main.py
+      RENDER_ENGINE_VERSION: v2
+    depends_on:
+      - api
+    volumes:
+      - worker-output:/work
+    restart: unless-stopped
+
+volumes:
+  worker-output:
+  customer-assets:
