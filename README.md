@@ -1,8 +1,6 @@
 # BladeForge AI
 
-BladeForge AI is an end-to-end synthetic-data MVP for computer-vision teams working
-on wind-turbine blade inspection. The implemented renderer supports one defect and
-one material profile:
+BladeForge AI is an open-source synthetic data generation platform for creating customizable 3D environments and datasets to train AI and robotic systems. It gives users control over models, defects, weather, lighting, camera positions, and environmental conditions to generate data tailored to their specific projects:
 
 - Leading-edge erosion on `gelcoat_composite_v1`
 - COCO JSON and YOLO v8 exports
