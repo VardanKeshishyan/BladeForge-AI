@@ -1,6 +1,6 @@
 # BladeForge AI
 
-Link: https://bladeforge.vardan.app/
+Additional Information: https://bladeforge.vardan.app/
 
 
 ## Demo Video
