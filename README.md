@@ -86,7 +86,6 @@ Create `.env.local` from [.env.example](.env.example):
 NEXT_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_ANON_KEY
 NEXT_PUBLIC_API_URL=http://localhost:8000
-NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL=http://localhost:3000/auth/callback
 ```
 
 Only the Supabase URL, anon key, and public API URL belong in the frontend
@@ -100,7 +99,6 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`.
 
 ## 4. Configure FastAPI
 
