@@ -7,7 +7,7 @@ Additional Information: https://bladeforge.vardan.app/
 
 **Click the image below to watch the BladeForge AI demo** ->
                                                         
-
+[![Watch BladeForge AI Demo](https://img.youtube.com/vi/g2a-kkklc4Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=g2a-kkklc4Q) 
 
 
 BladeForge AI is an open-source synthetic data generation platform for creating customizable 3D environments and datasets to train AI and robotic systems. It gives users control over models, defects, weather, lighting, camera positions, and environmental conditions to generate data tailored to their specific projects:
