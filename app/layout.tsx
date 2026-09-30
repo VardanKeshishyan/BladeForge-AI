@@ -13,7 +13,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'BladeForge AI — Synthetic Wind-Turbine Blade Defect Data',
+  title: 'BladeForge AI - Synthetic Wind-Turbine Blade Defect Data',
   description:
     'A local workspace for wind-turbine inspection images, painted defect regions, Blender rendering, and dataset exports.',
   keywords: [
